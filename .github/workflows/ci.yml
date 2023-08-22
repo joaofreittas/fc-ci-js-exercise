@@ -16,7 +16,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      
+
+      - name: Install Deps
+        run: yarn install
+
       - name: Unit Tests
         run: yarn run test
       
