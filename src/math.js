@@ -14,7 +14,6 @@ function mult(x, y) {
     return x * y;
 }
 
-
 module.exports = {
-    sum, sub
+    sum, sub, div, mult
 }
